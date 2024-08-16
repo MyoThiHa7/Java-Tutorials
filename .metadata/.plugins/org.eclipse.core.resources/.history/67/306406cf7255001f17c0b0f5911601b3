@@ -1,0 +1,13 @@
+package Learning;
+
+public class Test3 {
+	public static void main(String args[])
+	{
+		int n=52;
+		int n1=052;
+		int n2=0x52;
+		System.out.println("Nunber = "+n);
+		System.out.println("Number = "+n1);
+		System.out.println("Number = "+n2);
+	}
+}

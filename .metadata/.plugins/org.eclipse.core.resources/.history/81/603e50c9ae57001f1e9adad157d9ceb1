@@ -1,0 +1,14 @@
+package Learning;
+
+public class Test5 {
+	public static void mian(String args[]) {
+		byte a=1,b=3,c=0;
+		c=(byte)(a&b); System.out.println(c);
+		c=(byte)(a|b); System.out.println(c);
+		c=(byte)(a^b); System.out.println(c);
+		c=(byte)~a; System.out.println(c);
+		c=(byte)(a>>2); System.out.println(c);
+		c=(byte)(a<<2); System.out.println(c);
+	}
+
+}
